@@ -26,7 +26,7 @@ const Transition = () => {
         exit="exit"
         transition={{ delay: 0.6, duration: 0.6, ease: "easeInOut" }}
       >
-        <img src="../logo.png" className="w-72 lg:w-[35rem]" alt="logo" />
+        <img src="./logo.png" className="w-72 lg:w-[35rem]" alt="logo" />
       </motion.div>
       <motion.div
         className="fixed top-0 bottom-0 right-full w-screen h-screen z-[70] bg-gradient-to-br from-[#1a2051] to-[#0a1689]"
