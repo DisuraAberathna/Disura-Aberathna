@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" width="192" height="192" style="shape-rendering: auto; display: block; background: transparent;" xmlns:xlink="http://www.w3.org/1999/xlink"><g><circle r="15" fill="#000305" cy="50" cx="35">
+  <animate begin="-0.47619047619047616s" values="35;65;35" keyTimes="0;0.5;1" dur="0.9523809523809523s" repeatCount="indefinite" attributeName="cx"></animate>
+</circle>
+<circle r="15" fill="#0072ff" cy="50" cx="65">
+  <animate begin="0s" values="35;65;35" keyTimes="0;0.5;1" dur="0.9523809523809523s" repeatCount="indefinite" attributeName="cx"></animate>
+</circle>
+<circle r="15" fill="#000305" cy="50" cx="35">
+  <animate begin="-0.47619047619047616s" values="35;65;35" keyTimes="0;0.5;1" dur="0.9523809523809523s" repeatCount="indefinite" attributeName="cx"></animate>
+  <animate repeatCount="indefinite" dur="0.9523809523809523s" keyTimes="0;0.499;0.5;1" calcMode="discrete" values="0;0;1;1" attributeName="fill-opacity"></animate>
+</circle><g></g></g></svg>
