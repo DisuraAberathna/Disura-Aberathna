@@ -53,7 +53,7 @@ const About = () => {
                   <hr className="w-[20%] md:w-[5%] border-blue-700 border-2 rounded-full mt-2" />
                 </motion.div>
                 <div className="grid md:grid-cols-2 gap-y-5 px-6 pb-20 md:pb-0 mt-14">
-                  <div className="text-slate-800 dark:text-white w-full">
+                  <div className="text-slate-800 dark:text-white w-full order-2 md:order-1">
                     <motion.p
                       variants={fadeIn("right", 0.2)}
                       initial="hidden"
@@ -120,11 +120,11 @@ const About = () => {
                     initial="hidden"
                     whileInView={"show"}
                     viewport={{ once: false, amount: 0.4 }}
-                    className="flex justify-center items-center"
+                    className="flex justify-center order-1 md:order-2 border-2"
                   >
                     <img
-                      src="/profile.webp"
-                      className="md:h-auto md:w-[25rem] w-64 h-64 drop-shadow-[0_30px_30px_rgba(29,78,216,0.5)] dark:drop-shadow-[0_30px_30px_rgba(250,250,250,0.5)] hover:drop-shadow-[0_30px_30px_rgba(250,204,21,0.5)] dark:hover:drop-shadow-[0_30px_30px_rgba(250,204,21,0.5)] transform duration-500"
+                      src="/about-profile.svg"
+                      className="md:h-auto md:w-[40rem] w-96 h-96 drop-shadow-[0_30px_30px_rgba(29,78,216,0.5)] dark:drop-shadow-[0_30px_30px_rgba(250,250,250,0.5)] hover:drop-shadow-[0_30px_30px_rgba(250,204,21,0.5)] dark:hover:drop-shadow-[0_30px_30px_rgba(250,204,21,0.5)] transform duration-500"
                       alt="profile"
                     />
                   </motion.div>
