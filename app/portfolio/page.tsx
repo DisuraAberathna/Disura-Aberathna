@@ -80,12 +80,24 @@ const Portfolio = () => {
                   </h2>
                   <hr className="w-[20%] md:w-[5%] border-blue-700 border-2 rounded-full mt-2" />
                 </motion.div>
-                <motion.div
+                <motion.p
                   variants={fadeIn("down", 0.4)}
                   initial="hidden"
                   whileInView={"show"}
                   viewport={{ once: false, amount: 0.4 }}
-                  className="md:w-[77rem] flex flex-wrap items-center justify-center gap-5 md:gap-10 mt-8 md:mt-14 px-3 md:px-0"
+                  className="text-center px-5 mt-10 text-lg md:max-w-5xl"
+                >
+                  Explore some of the projects I've worked on. Each project
+                  showcases my skills in different areas of software
+                  development, from web and mobile applications to dynamic
+                  websites.
+                </motion.p>
+                <motion.div
+                  variants={fadeIn("down", 0.6)}
+                  initial="hidden"
+                  whileInView={"show"}
+                  viewport={{ once: false, amount: 0.4 }}
+                  className="md:w-[77rem] flex flex-wrap items-center justify-center gap-5 md:gap-10 mt-14 px-3 md:px-0"
                 >
                   {projects.map((project) => (
                     <div

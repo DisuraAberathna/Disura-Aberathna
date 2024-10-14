@@ -150,17 +150,8 @@ const Contact = () => {
                 </motion.div>
                 <div className="flex flex-col md:flex-row justify-center gap-x-20 gap-y-5 px-6 pt-20">
                   <div className=" text-slate-800 dark:text-white">
-                    <motion.h2
-                      variants={fadeIn("right", 0.2)}
-                      initial="hidden"
-                      whileInView={"show"}
-                      viewport={{ once: false, amount: 0.4 }}
-                      className="text-3xl font-semibold"
-                    >
-                      Get in touch
-                    </motion.h2>
                     <motion.p
-                      variants={fadeIn("right", 0.3)}
+                      variants={fadeIn("right", 0.2)}
                       initial="hidden"
                       whileInView={"show"}
                       viewport={{ once: false, amount: 0.4 }}
