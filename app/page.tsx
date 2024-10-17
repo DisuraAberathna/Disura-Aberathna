@@ -153,10 +153,10 @@ export default function Home() {
                       View My Work
                     </Link>
                     <Link
-                      href="/contact"
+                      href="/about"
                       className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 rounded-lg text-base px-4 py-1.5 md:px-6 md:py-2.5 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
                     >
-                      Contact Me
+                      About Me
                     </Link>
                   </motion.div>
                   <motion.div
