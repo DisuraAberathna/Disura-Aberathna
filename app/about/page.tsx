@@ -53,13 +53,13 @@ const About = () => {
                   <hr className="w-[20%] md:w-[5%] border-blue-700 border-2 rounded-full mt-2" />
                 </motion.div>
                 <div className="grid md:grid-cols-2 gap-y-5 px-6 pb-20 md:pb-0 mt-14">
-                  <div className="text-slate-800 dark:text-white w-full order-2 md:order-1">
+                  <div className="text-slate-800 dark:text-white w-full order-2 md:order-1 flex flex-col justify-center">
                     <motion.p
                       variants={fadeIn("right", 0.2)}
                       initial="hidden"
                       whileInView={"show"}
                       viewport={{ once: false, amount: 0.4 }}
-                      className="max-w-md lg:max-w-xl my-6"
+                      className="max-w-md md:max-w-xl my-6 text-base"
                     >
                       Welcome to my personal corner of the internet! I&apos;m
                       Disura Aberathna, a passionate Software Developer, Web
@@ -74,7 +74,7 @@ const About = () => {
                       initial="hidden"
                       whileInView={"show"}
                       viewport={{ once: false, amount: 0.4 }}
-                      className="max-w-md lg:max-w-xl my-6"
+                      className="max-w-md md:max-w-xl my-6 text-base"
                     >
                       My journey into software development began with a
                       fascination for how technology can solve real-world
@@ -91,7 +91,7 @@ const About = () => {
                       initial="hidden"
                       whileInView={"show"}
                       viewport={{ once: false, amount: 0.4 }}
-                      className="max-w-md lg:max-w-xl my-6"
+                      className="max-w-md md:max-w-xl my-6 text-base"
                     >
                       Through this website, I aim to share my journey, showcase
                       my projects, and connect with like-minded individuals who
@@ -105,7 +105,7 @@ const About = () => {
                       initial="hidden"
                       whileInView={"show"}
                       viewport={{ once: false, amount: 0.4 }}
-                      className="pb-2 md:pt-2 md:pb-0 flex justify-center md:justify-start"
+                      className="pb-2 md:pt-2 md:pb-0 flex"
                     >
                       <Link
                         href="/contact"
@@ -120,11 +120,11 @@ const About = () => {
                     initial="hidden"
                     whileInView={"show"}
                     viewport={{ once: false, amount: 0.4 }}
-                    className="flex justify-center order-1 md:order-2 border-2"
+                    className="flex justify-center order-1 md:order-2"
                   >
                     <img
                       src="/about-profile.svg"
-                      className="md:h-auto md:w-[40rem] w-96 h-96 drop-shadow-[0_30px_30px_rgba(29,78,216,0.5)] dark:drop-shadow-[0_30px_30px_rgba(250,250,250,0.5)] hover:drop-shadow-[0_30px_30px_rgba(250,204,21,0.5)] dark:hover:drop-shadow-[0_30px_30px_rgba(250,204,21,0.5)] transform duration-500"
+                      className="md:h-auto md:w-[34rem] w-96 h-96 drop-shadow-[0_30px_30px_rgba(29,78,216,0.5)] dark:drop-shadow-[0_30px_30px_rgba(250,250,250,0.5)] hover:drop-shadow-[0_30px_30px_rgba(250,204,21,0.5)] dark:hover:drop-shadow-[0_30px_30px_rgba(250,204,21,0.5)] transform duration-500"
                       alt="profile"
                     />
                   </motion.div>

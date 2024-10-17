@@ -170,8 +170,7 @@ const Contact = () => {
                         viewport={{ once: false, amount: 0.4 }}
                         className="flex items-center gap-x-2"
                       >
-                        <FaLocationDot className="text-lg" /> 98/2, Medagoda,
-                        Poojapitiya, Kandy
+                        <MdCall className="text-lg" /> +94 76 002 5864
                       </motion.h5>
                       <motion.h5
                         variants={fadeIn("right", 0.5)}
@@ -180,19 +179,10 @@ const Contact = () => {
                         viewport={{ once: false, amount: 0.4 }}
                         className="flex items-center gap-x-2"
                       >
-                        <MdCall className="text-lg" /> +94 76 002 5864
-                      </motion.h5>
-                      <motion.h5
-                        variants={fadeIn("right", 0.6)}
-                        initial="hidden"
-                        whileInView={"show"}
-                        viewport={{ once: false, amount: 0.4 }}
-                        className="flex items-center gap-x-2"
-                      >
                         <FaWhatsapp className="text-lg" /> +94 76 002 5864
                       </motion.h5>
                       <motion.h5
-                        variants={fadeIn("right", 0.7)}
+                        variants={fadeIn("right", 0.6)}
                         initial="hidden"
                         whileInView={"show"}
                         viewport={{ once: false, amount: 0.4 }}
