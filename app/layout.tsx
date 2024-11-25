@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: "https://disuraaberathna.com/",
     images: [
       {
-        url: "https://disuraaberathna.com/profile.webp",
+        url: "https://disuraaberathna.com/assets/images/about-profile.svg",
       },
     ],
     description: "Undergraduate Software Engineer",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Disura Aberathna",
     description: "Undergraduate Software Engineer",
-    images: ["https://disuraaberathna.com/profile.webp"],
+    images: ["https://disuraaberathna.com/assets/images/about-profile.svg"],
     site: "https://disuraaberathna.com/",
   },
 };
